@@ -1,0 +1,520 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    color: #47425d;
+}
+
+body h4{
+    font-family: 'Lato', sans-serif;
+}
+
+/* ------------ CSS of index.html -------------- */
+
+#psulogo{
+    max-width: 15%;
+}
+
+.navbar.scrolled {
+    background-color: #293b69bd;
+    transition: background-color 500ms linear;
+}
+
+.dropdown-item{
+    color: white;
+    text-shadow: none;
+}
+
+.dropdown-menu{
+    background-color: #293b69bd; 
+}
+
+#mainNavbar{
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+#mainNavbar .nav-link {
+    color:rgb(221, 221, 221);
+}
+
+#mainNavbar .nav-link:hover {
+    font-size: 1.2em;
+    transition: font-size 100ms linear;
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(221, 221, 221);
+    font-size: 1.5rem;
+}
+
+
+
+#events{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('imgs/esports-cover-image.png');
+    margin-top: 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#gcalendar-border{
+    border: 20px solid rgba(99, 99, 99, 0.726);
+    max-width: 45%;
+    padding-top: 2%;
+    margin-top: 2%;
+}
+
+
+#nav-bar{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    max-width: 100%;
+}
+
+.carousel-item{
+    height: 768px;
+    max-width: 100%;
+} 
+.carousel-item img{
+    height: 768px;
+    max-width: 100%;
+}
+
+
+#event-header{
+    padding-top: 2%;
+    padding-bottom: -2%;
+    color: white;
+}
+
+#event-header h4{
+    color: rgb(190, 190, 190);
+}
+
+#about-header{
+    text-align: center;
+}
+
+#about{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color:rgba(35, 64, 109, .1);
+}
+
+#about-descripition{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#about img{
+    height: 70px;
+    width: 76px;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+#division-header{
+    margin-top: 1%;
+    text-align: center;
+}
+
+#divisions img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#divisionlogos{
+    margin-top: 2%;
+}
+
+#divisionlogos-row2{
+    padding-top: 1%;
+}
+
+#divisionlogos-row3{
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#divlearnmore{
+    text-align: center;
+}
+
+#sponsor-header{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    background-color: rgba(35, 64, 109, .1);
+}
+
+#sponsors{
+    background-color: rgba(35, 64, 109, .1);
+    margin-bottom: 5%;
+    
+}
+#sponsors img{
+    max-width: 100%;
+    max-height: 100%;
+    transition: transform .1s;
+}
+
+#sponsors img:hover{
+    transform: scale(1.1);
+}
+
+#tespa{
+    position: relative;
+    top: -5em;
+}
+
+#uconnect{
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+#sector6{
+    margin-left: 2%;
+    margin-top: 18%;
+}
+
+#social-header{
+    text-align: center;
+    margin-top: -4%;
+    margin-bottom: .5%;
+}
+
+#social-test img{
+    margin-top: 5%;
+    height: 175px;
+    width: 175px;
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .1s;
+}
+
+#social-test img:hover{
+    transform: scale(1.1);
+}
+
+#footer{
+    background-color: #23416dee;
+    color: #ffffff;
+    font-size: .8em;
+    padding-top: 2%;
+    margin-top: 1.5%;
+}
+
+#footer a{
+    color: white;
+}
+
+#footer img{
+    height: 60px;
+    display: inline-block;
+    width: 60px;
+}
+
+#followus{
+    text-align: center;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 172px;
+    height: 229px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-back h1{
+      font-size: 1.5em;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #293b69;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+hr.style-one {
+    margin-bottom: -1%;
+    width: 20%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0));
+}
+
+hr.style-two {
+    height: 8px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/* ------------ CSS of divisions.html -------------- */
+#subNavbar{
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    background-color: #293b69bd;
+}
+#subNavbar .nav-link {
+    color:rgb(221, 221, 221);
+}
+
+#subNavbar .nav-link:hover {
+    font-size: 1.2em;
+    transition: font-size 100ms linear;
+}
+
+#subNavbar .navbar-brand {
+    color: rgb(221, 221, 221);
+    font-size: 1.5rem;
+}
+
+#logosrow{
+    text-align: center;
+    margin-top: 1%;
+}
+
+#sublogos img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .1s;
+}
+
+#sub-footer-divisions{
+    margin-top: 25%;
+}
+
+#sublogos img:hover{
+    transform: scale(1.1);
+}
+
+.inner_div img{
+    max-width: 100%;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#subdiv{
+    padding-bottom: 10%;
+}
+
+/* ------------ CSS of psu-fall-event.html -------------- */
+
+#fallevent img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0 7px 4px #777;
+	-moz-box-shadow: 0 7px 4px #777;
+    box-shadow: 0 7px 4px #777;
+    transition: all .2s ease-in-out;
+}
+
+#fallevent img:hover{
+    transform: scale(1.1);
+}
+
+.jumbotron{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("imgs/Fall_Event_Deck/jumboimg.jpg");
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+
+#slides{
+    margin-bottom: 2%;
+}
+
+#slides img{
+    border: solid 10px rgba(0, 0, 0, 0.171);
+    height: 100%;
+    width: 85%;
+    object-fit: cover
+}
+
+/* ------------ CSS of contact.html -------------- */
+
+#contactPage{
+    margin-top: 2%;
+}
+form {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+  }
+
+#fs-frm-inputs {
+    width: 375px;
+  }
+
+input{
+    width: 400px;
+    border-radius: 5px;
+}
+
+input[type=submit]{
+    width: 200px;
+    margin-left: 25%;
+    background-color: #B9DFFF;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee; 
+    text-shadow:none;
+    transition: transform 1s;
+}
+
+input[text=submit]:hover{
+    transform: scale(1.5);
+}
+
+textarea{
+    border-radius: 10px;
+    width: 400px;
+}
+
+#emailForm p{
+    margin-left: 12.66%;
+}
+
+#emailForm{
+    border-left: 1px solid rgba(92, 92, 92, 0.719);
+}
+/* ------------ CSS of about.html -------------- */
+
+#aboutus{
+    margin-top: 2%;
+}
+
+.jumbotron-about{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("imgs/aboutheader.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+
+#eboard {
+    text-align: center;
+}
+
+#aboutus{
+    margin-bottom: 1.66%;
+}
+#eboard img{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 1.66%;
+    border-radius: 15%;
+}
+
+#eboard-container{
+    margin-top: 3%;
+    line-height: 50%;
+}
+
+.eboard-title{
+    font-weight: 800;
+    padding-bottom: -1%;
+    letter-spacing: 2px;
+}
+/* ------------ CSS of about.html -------------- */
+
+#merchPic{
+    margin-top: 1.66%;
+}
+
+#merchPic img{
+    float: left;
+    width: 250px;
+    height: 300px;
+}
+
+.merchinfo{
+    text-align: center;
+
+}
+
+#merchPic .colorMerch img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    margin: 1%;
+    margin-top: -1%;
+    
+}
+
+.colorMerch{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.merchOrder{
+    color: white;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 1026px) {
+    #events {
+        display: none;
+    }
+}
