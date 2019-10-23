@@ -518,3 +518,16 @@ textarea{
         display: none;
     }
 }
+
+@media screen and (max-width: 480px) {
+    #tespa{
+        padding-top: 15%;
+        padding-left: 6%;
+    }
+    #hyperx{
+        padding-top: -25%;
+    }
+    #sector6{
+        margin-bottom: 25%;
+    }
+}
