@@ -168,8 +168,9 @@ body h4{
 }
 
 #tespa{
-    position: relative;
-    top: -5em;
+    width: 280px;
+    height: 80px;
+    margin-top: 5%;
 }
 
 #uconnect{
@@ -519,7 +520,7 @@ textarea{
     }
 }
 
-/*@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     #tespa{
         padding-top: 15%;
         padding-left: 6%;
@@ -531,4 +532,3 @@ textarea{
         margin-bottom: 25%;
     }
 }
-*/
