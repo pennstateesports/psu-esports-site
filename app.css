@@ -7,6 +7,11 @@ body h4{
     font-family: 'Lato', sans-serif;
 }
 
+body h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: Bold;
+}
+
 /* ------------ CSS of index.html -------------- */
 
 #psulogo{
