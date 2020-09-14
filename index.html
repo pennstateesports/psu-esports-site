@@ -17,6 +17,9 @@
 
     <link rel="stylesheet" type="text/css" href="js/lib/glider.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
@@ -88,7 +91,7 @@
         <img src="imgs/white_claw.png" class="">
       </div>
       <div class="gamesDiv">
-        <img src="imgs/logos at the bottom.png" class="games animate__animated animate__fadeInUp">
+        <img src="imgs/logos at the bottom.png">
       </div>
     </div>
 </div>
@@ -99,7 +102,7 @@
         <hr class="style-one">
     </div>
 
-    <div id="about-descripition" class="container">
+    <div data-aos="fade-right" id="about-descripition" class="container">
         <div class="row fade-in">
           <div class="col-sm-4 triangle">
             <img src="imgs/user.png" alt="user">
@@ -137,7 +140,7 @@
   </div>
 
   <div class="container division">
-    <div class="row justify-content-center twitchPadding">
+    <div data-aos="fade-up" class="row justify-content-center twitchPadding">
       <div class="col-md-2 mb-2">
         <div class="text-center">
           <img src="imgs/dotalogo.jpg">
@@ -164,7 +167,7 @@
         </div>
       </div>
     </div>
-    <div class="row justify-content-center twitchPadding">
+    <div data-aos="fade-up" class="row justify-content-center twitchPadding">
       <div class="col-md-2 mb-2">
         <div class="text-center">
           <img src="imgs/rllogo.jpg">
@@ -207,7 +210,7 @@
   <div class="container executive">
     <div class="row justify-content-center">
       <div class="col-md-2">
-        <div class="text-center executiveOutside">
+        <div data-aos="fade-down" data-aos-delay="250" class="text-center executiveOutside">
           <img src="imgs/StuPicture.png">
           <p class="bluetext">Treasurer</p>
           <br>
@@ -215,7 +218,7 @@
         </div>
       </div>
 
-      <div class="col-md-2">
+      <div data-aos="fade-down" data-aos-delay="150" class="col-md-2">
         <div class="text-center executiveInside">
           <img src="imgs/Haydne Picture.jpg">
           <p class="bluetext">Secretary</p>
@@ -224,14 +227,14 @@
       </div>
 
       <div class="col-md-2">
-        <div class="text-center executiveMiddle">
+        <div data-aos="fade-down" class="text-center executiveMiddle">
           <img src="imgs/Mitch Picture.jpeg">
           <p class="bluetext">President</p>
           <p>Mitch Scavo</p>
         </div>
       </div>
 
-      <div class="col-md-2">
+      <div data-aos="fade-down" data-aos-delay="150" class="col-md-2">
         <div class="text-center executiveInside">
           <img src="imgs/PSU logo Blue P .png">
           <p class="bluetext">Vice President</p>
@@ -239,7 +242,7 @@
         </div>
       </div>
 
-      <div class="col-md-2">
+      <div data-aos="fade-down" data-aos-delay="250"class="col-md-2">
         <div class="text-center executiveOutside">
           <img src="imgs/rsz_1senso_picture.jpg" style="height:180; width:200;">
           <p class="bluetext">Web & Media / Graphics</p>
@@ -259,16 +262,16 @@
 
   <div class="container">
     <div class="row">
-      <div class= "col-sm-3">
+      <div data-aos="fade-right" data-aos-delay="25" class= "col-sm-3">
         <a href="https://tespa.org/"><img src="imgs/TESPA white .png" alt="tespalogo"></a>
       </div>
-      <div class= "col-sm-3">
+      <div data-aos="fade-right" data-aos-delay="100" class= "col-sm-3">
         <a href="https://www.hyperxgaming.com/us"><img src="imgs/Hyperx White.png"></a>
       </div>
-      <div class= "col-sm-3">
+      <div data-aos="fade-right" data-aos-delay="200" class= "col-sm-3">
         <a href="https://uconnectesports.com/#/"><img src="imgs/Uconnect White.png"></a>
       </div>
-      <div class="col-sm-3">
+      <div data-aos="fade-right" data-aos-delay="300" class="col-sm-3">
         <a href="https://sectorsixapparel.com/"><img src="imgs/sector six.png"></a>
       </div>
     </div>
@@ -280,7 +283,7 @@
     <h1>Socials</h1>
     <hr class="style-one">
   </div>
-  <div id="social-test" class="container-fluid">
+  <div data-aos="fade-in" data-aos-easing="ease-in-out" id="social-test" class="container-fluid">
     <div class="row">
       <div class="col-sm-2">
         <a href="https://discord.gg/psuesports"><img src="imgs/discordlogo.png" alt="discordlogo"></a>
@@ -379,6 +382,12 @@
        $(".loader-wrapper").fadeOut("slow");
       });
   </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>   
+  AOS.init(); 
+</script>
 
 </body>
 
