@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
     color: whitesmoke;
@@ -201,6 +205,23 @@ body h4{
     }
   }
 
+#merchLanding img{
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 5%;
+}
+
+#merchLanding button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 .landingpage .gamesDiv img{
     position: absolute;
@@ -313,6 +334,17 @@ body h4{
 
 @media screen and (max-width: 726px) {
     #collage {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 726px) {
+    #merchLanding {
       visibility: hidden;
       clear: both;
       float: left;
