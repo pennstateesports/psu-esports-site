@@ -697,7 +697,13 @@ textarea{
 #aboutus{
     margin-top: 2%;
 }
-
+.qaQuestion{
+    font-size: 200%;
+}
+.qaAnswer{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 115%;
+}
 .bluetext{
     margin-top: 4%;
     font-weight: 700;
