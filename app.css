@@ -148,21 +148,23 @@ body h4{
     z-index: 105;
 }
 
-.landingpage img.landinglogo{
+.landingpage div.landinglogo{
     z-index:105;
     height:45%;
     width: 25%;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); /* IE 9 */
     -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */
     border-radius: 50%;
-    
+    text-align: center;
 	animation: float 3s ease-in-out infinite;
 }
-
+#logoTitle{
+    font-size: 400%;
+}
 @media (max-width: 1181px) {
     .landingpage img.landinglogo {
         width: auto ;
